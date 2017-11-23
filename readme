@@ -1,0 +1,30 @@
+##Git
+
+git config --global user.name ""
+git config --global user.email ""
+git config --list // 所有配置
+git help //帮助文档
+pwd //当前目录
+cd ~ //返回桌面
+
+1. git init //初始化
+	ls -la //显示隐藏的文件夹也
+2. git add . //加载所有的修改
+	git add second.txt //指定加载（red: 未加载 green: 已经加载为提交）
+3. git commit -m "comment" //提交
+4. git log //查看所有提交
+5. git log --author="Zhi Li" // 查看指定人的提交
+6. git status //当前状态
+7. git diff //查看不同
+8. git diff --staged //比较staging area（中间阶段）
+9. git rm second.txt //移除（提交是前提） + git commit -m "Delete" // 彻底删除
+10. git mv third.txt pudding.txt //重命名
+11. git mv pudding.txt LoveNotes/  //移动到文件夹
+12. git commit -am "直接提交" //直接提交 不加载、
+13. git checkout -- first.txt //修改是错误的 返回之前的版本 （未加载）
+14. git reset HEAD first.txt //返回为加载之前 当前在staging area
+15. git checkout faa22 -- first.txt //得到旧的版本 不用全部的commit no 几位就可以
+16. git remote add nickname https://github.com/ZhiLiGod/GitTest.git //远程连接github中的仓库
+17. git push -u nickname master/dev
+18. git clone git@github.com:ZhiLiGod/GitTest.git //克隆
+19. git pull = git fetch + git merge
