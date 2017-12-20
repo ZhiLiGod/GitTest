@@ -29,3 +29,8 @@ cd ~ //返回桌面
 18. git clone git@github.com:ZhiLiGod/GitTest.git //克隆
 19. git pull = git fetch + git merge
 20. git push -f springbootpapertraildemo master
+21 get code from branch
+	1)git clone xxx.git
+	2)cd   xxx (project directory)
+	3)git checkout -b 远程仓库分支名字 origin/远程仓库分支名字 
+	4)git pull
