@@ -34,3 +34,5 @@ cd ~ //返回桌面
 	2)cd   xxx (project directory)
 	3)git checkout -b 远程仓库分支名字 origin/远程仓库分支名字 
 	4)git pull
+22删除远程分支 git push origin --delete <branchName>
+
