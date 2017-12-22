@@ -36,3 +36,4 @@ cd ~ //返回桌面
 	4)git pull
 22删除远程分支 git push origin --delete <branchName>
 23git checkout -b feature-jira master
+24git push origin master:master
