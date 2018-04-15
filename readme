@@ -42,3 +42,4 @@ cd ~ //返回桌面
 27git log -p 'filename'
 28git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 29git push origin --delete <branch name>
+30git rm -r --cached .
