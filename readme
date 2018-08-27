@@ -45,4 +45,5 @@ cd ~ //返回桌面
 30git rm -r --cached .
 31git reflog
 32git reset --hard HEAD~1
-git remote add origin remote repository URL
+33git remote add origin remote repository URL
+34netstat -ano | findstr :4200 taskkill /PID 15940 /F
