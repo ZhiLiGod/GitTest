@@ -34,17 +34,19 @@ cd ~ //返回桌面
 	2)cd   xxx (project directory)
 	3)git checkout -b 远程仓库分支名字 origin/远程仓库分支名字 
 	4)git pull
-22删除远程分支 git push origin --delete <branchName>
-23git checkout -b feature-jira master
-24git push origin master:master
-25git reset HEAD 'filename'
-26git add -p 'filename'
-27git log -p 'filename'
-28git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
-29git push origin --delete <branch name>
-30git rm -r --cached .
-31git reflog
-32git reset --hard HEAD~1
-33git remote add origin remote repository URL
-34netstat -ano | findstr :4200 taskkill /PID 15940 /F
-35grep -r ""
+22 删除远程分支 git push origin --delete <branchName>
+23 git checkout -b feature-jira master
+24 git push origin master:master
+25 git reset HEAD 'filename'
+26 git add -p 'filename'
+27 git log -p 'filename'
+28 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+29 git push origin --delete <branch name>
+30 git rm -r --cached .
+31 git reflog
+32 git reset --hard HEAD~1
+33 git remote add origin remote repository URL
+34 netstat -ano | findstr :4200 taskkill /PID 15940 /F
+35 grep -r ""
+36 mvn spring-boot:run -pl core-services-api/ -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5008"
+37 mvn test-compile failsafe:integration-test failsafe:verify >> out.log
