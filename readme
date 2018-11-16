@@ -50,3 +50,4 @@ cd ~ //返回桌面
 35 grep -r ""
 36 mvn spring-boot:run -pl core-services-api/ -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5008"
 37 mvn test-compile failsafe:integration-test failsafe:verify >> out.log
+38 git remote update origin --prune
