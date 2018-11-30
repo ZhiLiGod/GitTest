@@ -52,3 +52,4 @@ cd ~ //返回桌面
 37 mvn test-compile failsafe:integration-test failsafe:verify >> out.log
 38 git remote update origin --prune
 39 DBCC CHECKIDENT ('[TestTable]', RESEED, 0); GO set id back to 0
+40 mvn spring-boot:run -pl xxxx -Dspring.profiles.active=me
