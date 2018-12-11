@@ -42,7 +42,7 @@ cd ~ //返回桌面
 27 git log -p 'filename'
 28 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 29 git push origin --delete <branch name>
-30 git rm -r --cached .
+30 git rm -r --cached . update remote repo after gitignore changed, then snap it
 31 git reflog
 32 git reset --hard HEAD~1
 33 git remote add origin remote repository URL
