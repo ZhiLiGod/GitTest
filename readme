@@ -54,3 +54,4 @@ cd ~ //返回桌面
 39 DBCC CHECKIDENT ('[TestTable]', RESEED, 0); GO set id back to 0
 40 mvn spring-boot:run -pl xxxx -Dspring.profiles.active=me
 41 convert excel to json http://www.convertcsv.com/csv-to-json.htm
+42 git checkout -p $REF -- path/to/file
